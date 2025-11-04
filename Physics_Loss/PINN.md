@@ -169,13 +169,13 @@ def train_physics(model, train_loader, test_loader, device, epochs=50,
     | 0.2 | 0.9757 |
 - `lambda_phys_residual` = 4.0
 
-| `lamda_phys` | F1-Score |
-| --- | --- |
-| 0.01 | 0.9734 |
-| 0.05 | 0.9772 |
-| 0.1 | 0.9765 |
-| 0.15 | 0.9770 |
-| 0.2 | 0.9750 |
+	| `lamda_phys` | F1-Score |
+	| --- | --- |
+	| 0.01 | 0.9734 |
+	| 0.05 | 0.9772 |
+	| 0.1 | 0.9765 |
+	| 0.15 | 0.9770 |
+	| 0.2 | 0.9750 |
 
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/187d9477-3e18-4d25-95d3-2e91ae664216" />
 
