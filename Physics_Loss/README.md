@@ -10,8 +10,6 @@
 
 - PINN 분야를 개척한 논문(필독). 딥러닝으로 어떻게 미분방정식을 풀고, 데이터 부족 영역을 물리 법칙으로 채워 넣을 수 있는지에 대한 idea 제공
 
-[Physics-Informed Neural Networks (2019)](https://www.notion.so/Physics-Informed-Neural-Networks-2019-2a1ccff627fb802e9086c832b32de8ed?pvs=21)
-
 **논문 2) *"Physics-guided deep learning: A review of recent advances and applications" (Willard et al., 2020/2022)***
 
 - PINN을 포함하여 물리를 딥러닝에 통합하는 다양한 방법론 (loss function, architecture, hybrid)을 총 정리한 논문.
