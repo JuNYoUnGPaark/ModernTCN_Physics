@@ -139,6 +139,7 @@ def train_physics(model, train_loader, test_loader, device, epochs=50,
     - `lamda_phys` (현재=0.05): 이 값이 너무 작으면 쓴 보람이 없고 너무 크면 본 task인 분류 성능이 떨어진다.
     - `lambda_phys_residual` (현재=1.0): 이 값이 너무 작으면 PINN idea가 무시되고 너무 크면 `total = body + gravity` 라는 관계만 맞추려고 한다.
 - 현재: 가장 좋은 조합으로 Tunning 완료됨.
+- 해당 방식은 UCI-HAR과 같이 total_acc 원본과 필터를 적용하여 gravity를 제거한 body_acc를 둘 다 제공하는 특이한 케이스의 데이터만 가능 (향후 나머지 3개 데이터셋과는 비교 불가)
 
 ### 5. Results
 
