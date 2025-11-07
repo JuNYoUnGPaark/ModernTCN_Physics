@@ -1,6 +1,6 @@
 # Physics Loss 관련 논문 정리
 
-# 1. “고전적” 물리 정보 신경망 (실습용 only) 
+# “고전적” 물리 정보 신경망 (실습용 only) 
 
 - 핵심 아이디어: `Total_Loss = Loss_data + Loss_physics`
     - `Loss_data` : y(Target)과 y_pred의 차이 (현재 코드: `loss_ce`)
