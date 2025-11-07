@@ -26,10 +26,7 @@
 - IMU 센서로 사람의 움직임을 인식할 때, 가속도 센서가 측정하는 값은 **순수한 움직임만이 아닌 중력까지 포함**됨.
 
 <aside>
-🔥
-
 측정된 가속도 = 실제 몸의 움직임(`acc_body`) + 지구 중력(`acc_gravity`)
-
 </aside>
 
 - ex) 스마트폰을 가만히 세워둬도 가속도 센서 = (0, 0, 9.8)을 측정
@@ -50,10 +47,7 @@
 ### 3) 보완 필터의 핵심 아이디어
 
 <aside>
-🔥
-
 가속도는 저주파(느린 변화), 자이로는 고주파(빠른 변화) 정보를 적극 활용하자. 
-
 </aside>
 
 - acc는 Low-pass filter로 중력 방향만 남기고,
@@ -62,7 +56,7 @@
 - 이 두 정보를 가중 평균처럼 합치면 안정적이고 지속적인 중력 방향을 얻을 수 있다.
 
 $$
-g\_estimate = \alpha * (gyro\_gradient)+(1-\alpha)*(acc\_gradient)
+g\\_estimate = \alpha * (gyro\\_gradient)+(1-\alpha)*(acc\\_gradient)
 $$
 
 - acc는 “중력 방향 측정”, gyro 적분은 “방향 예측 역할
